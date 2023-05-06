@@ -2,10 +2,10 @@
     "version": 2,
     "name": "college_connect",
     "builds": [
-      { "src": "script.js", "use": "@vercel/node" }
+      { "src": "./app.js", "use": "@vercel/node" }
     ],
     "routes": [
-      { "src": "/(.*)", "dest": "/app.js" }
+      { "src": "/(.*)", "dest": "/" }
     ]
   }
   
